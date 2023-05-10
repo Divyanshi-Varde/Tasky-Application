@@ -72,7 +72,6 @@ const loadInitialData = () => {
 };
 
 const handleSubmit = (event) => {
-  // console.log("event triggerd");
   const id = `${Date.now()}`;
   const input = {
     url: document.getElementById("imageUrl").value,
